@@ -1,5 +1,7 @@
 # Source: https://fairlearn.org/v0.8/quickstart.html
 
+# pip install fairlearn
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
