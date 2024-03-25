@@ -1,7 +1,7 @@
-# Tools-for-responsible-ai
+# Tools for Responsible AI 👾
 
 🚩 Responsible AI is everyone's responsibility.
 
-Accompanying article will be published soon on [meganbloemsma.com](https://meganbloemsma.com).
+In this repo you can find the demo's of [FairLearn](https://github.com/meganbloemsma/tools-for-responsible-ai/fairlearn/fairlearn-quickstart.py) and [InterpretML](https://github.com/meganbloemsma/tools-for-responsible-ai/interpretml/interpretml-quickstart.py).
 
-In this repo you can find the demo's of [FairLearn](https://github.com/meganbloemsma/tools-for-responsible-ai/blob/main/fairlearn-quickstart.py) and [InterpretML](https://github.com/meganbloemsma/tools-for-responsible-ai/blob/main/interpretml-quickstart.py).
+Find the article detailing these Responsible AI tools and its uses in [this article on my website](https://meganbloemsma.com/blog/tools-for-responsible-ai).
