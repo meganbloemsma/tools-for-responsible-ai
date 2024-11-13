@@ -1,4 +1,4 @@
-# InterpretML repo: https://interpret.ml/docs/getting-started.html
+# InterpretML repo: https://interpret.ml/docs/index.html
 
 # pip install interpret
 
