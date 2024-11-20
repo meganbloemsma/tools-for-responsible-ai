@@ -1,9 +1,14 @@
-# InterpretML repo: https://interpret.ml/docs/index.html
+## NOTE 20/11/2024: 'pip install interpret' is not working due to runtime errors. Created .gitignore and optionally pick up later.
+
+
+
+
+# Source: https://interpret.ml/docs/index.html
 
 # pip install interpret
+# If this fails, check: https://interpret.ml/docs/installation-guide.html
 
-# Download and prepare data
-# Basic dataset on adults from the UCI Machine Learning Repository
+# Download and prepare data, using a dataset on adults from UCI Machine Learning Repository
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -25,8 +30,8 @@ seed = 42
 np.random.seed(seed)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=seed)
 
-# GLASSBOX MODEL
-# Training a glassbox model: models that are designed to be completely interpretable.
+# Train a glassbox model: models that are designed to be completely interpretable.
+# Easier to remember: a glassbox model is the opposite of a black box model ;)
 
 from interpret.glassbox import ExplainableBoostingClassifier
 ebm = ExplainableBoostingClassifier()
